@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "integration_version": "0.2.0",
+  "integration_version": "0.2.1",
   "source_repository": "https://github.com/psires/livolo_ec",
-  "source_commit": "6fe41cbdc909a6497776202b3eeae088655b9908",
+  "source_commit": "c75839d038462042f15731bc28a19cc579f5d630",
   "packaging_commit": "c75839d038462042f15731bc28a19cc579f5d630",
   "packaging_files": {
     "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
@@ -37,7 +37,7 @@
     "custom_components/livolo_ec/const.py": "e36e99cb3c6114ee39c6f91bca0f76d51aa0400270453e1b84e96b7d38b82b7a",
     "custom_components/livolo_ec/coordinator.py": "1d948c9a7f16bd9414a5b54c85325d0c9e0c2fb35951a38994b0d2d5037f9877",
     "custom_components/livolo_ec/diagnostics.py": "f84a5a1fd43a473b581ce9b419928adc15c4d51446911848c4bf3da5a02d6171",
-    "custom_components/livolo_ec/manifest.json": "a8677be324d136143b8e79addd0070bd3d0f62e94f1afc9e9befa8478b413616",
+    "custom_components/livolo_ec/manifest.json": "4bade318677b689ffd3c1576434023e7f680379ddba9612d003a0d25b34f69cd",
     "custom_components/livolo_ec/strings.json": "cf53a710669401f39027f70ecbb9c5b1ea4a8b385d9d7e82c3d97196e7f4d3a6",
     "custom_components/livolo_ec/switch.py": "7b4f85299eac50bfcfd4542f7f683f8ab5bf27dde05784f70de5ef1ac36f9541",
     "custom_components/livolo_ec/translations/en.json": "cf53a710669401f39027f70ecbb9c5b1ea4a8b385d9d7e82c3d97196e7f4d3a6",
