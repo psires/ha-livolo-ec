@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "integration_version": "0.2.0",
+  "source_repository": "https://github.com/psires/livolo_ec",
+  "source_commit": "6fe41cbdc909a6497776202b3eeae088655b9908",
+  "packaging_commit": "c75839d038462042f15731bc28a19cc579f5d630",
+  "packaging_files": {
+    "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
+    "custom_components/livolo_ec/brand/icon.png": "0e84fc09001957a9fe50cc1a9cf44e64d4bf2737378fb7449812ced9eb218eda",
+    "custom_components/livolo_ec/brand/icon@2x.png": "db4163f1e9d616313457ec14e6c259cf92a7e78abdedd35770cb583188cb2bf4",
+    "homeassistant/channel/README.md": "7e378ee3761ea88e705d3b58bde6581106f0942d26a66bb861fbe55b38325f35",
+    "homeassistant/channel/hacs.json": "e1fe64c3593ff5ca4003b7c9d5ee247e64fb72c8cfdbd4b4658df3151528c1f7",
+    "homeassistant/channel/scripts/build_release.py": "504aab7992ceaaaf19faffd8fbf3f3ef7fcde79350b1dedf7b12e4a723f1c440",
+    "homeassistant/channel/workflows/release.yml": "d221fa7effdb44b8380e6620cbcd508c9003390bccec7819a0f9f5daeb7dfb1e",
+    "homeassistant/channel/workflows/validate.yml": "2c23fd73bab389eab2456645ebac96d211f7502afdc1a4a1d743f1bbaf0b5dbc",
+    "homeassistant/export_channel.py": "56e748d9251c108c5d091d18743e39f2bec05a02f75537665c4a411e2b519a26"
+  },
+  "distribution_files": {
+    ".github/workflows/release.yml": "d221fa7effdb44b8380e6620cbcd508c9003390bccec7819a0f9f5daeb7dfb1e",
+    ".github/workflows/validate.yml": "2c23fd73bab389eab2456645ebac96d211f7502afdc1a4a1d743f1bbaf0b5dbc",
+    ".gitignore": "d279725b10ae6691c9581f9ff18d339a439bd105801e25b66b576e0f8f36e4a6",
+    "LICENSE": "f2459cc9f4564c7e974465f14a897afa68097a9a0c432b1ea4e9c95280d2940b",
+    "README.md": "7e378ee3761ea88e705d3b58bde6581106f0942d26a66bb861fbe55b38325f35",
+    "hacs.json": "e1fe64c3593ff5ca4003b7c9d5ee247e64fb72c8cfdbd4b4658df3151528c1f7",
+    "scripts/build_release.py": "504aab7992ceaaaf19faffd8fbf3f3ef7fcde79350b1dedf7b12e4a723f1c440"
+  },
+  "preview": false,
+  "packaging_note": "Generated _client, BSD license and original project branding included.",
+  "files": {
+    "custom_components/livolo_ec/LICENSE": "f2459cc9f4564c7e974465f14a897afa68097a9a0c432b1ea4e9c95280d2940b",
+    "custom_components/livolo_ec/__init__.py": "1747ece13bc9b5440ab45c3407a677b86f4057ba81c5b81070d6b8bc0bc90629",
+    "custom_components/livolo_ec/_client/__init__.py": "8003e5b6eb569cf03f2a9ad7abc16c3d1c671e438d2058bab04ff5f013ab86a6",
+    "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
+    "custom_components/livolo_ec/brand/icon.png": "0e84fc09001957a9fe50cc1a9cf44e64d4bf2737378fb7449812ced9eb218eda",
+    "custom_components/livolo_ec/brand/icon@2x.png": "db4163f1e9d616313457ec14e6c259cf92a7e78abdedd35770cb583188cb2bf4",
+    "custom_components/livolo_ec/config_flow.py": "67edfb12291fb60c32dc330287c9ff06e21bc0d01f26808a083b8868c154f2dc",
+    "custom_components/livolo_ec/const.py": "e36e99cb3c6114ee39c6f91bca0f76d51aa0400270453e1b84e96b7d38b82b7a",
+    "custom_components/livolo_ec/coordinator.py": "1d948c9a7f16bd9414a5b54c85325d0c9e0c2fb35951a38994b0d2d5037f9877",
+    "custom_components/livolo_ec/diagnostics.py": "f84a5a1fd43a473b581ce9b419928adc15c4d51446911848c4bf3da5a02d6171",
+    "custom_components/livolo_ec/manifest.json": "a8677be324d136143b8e79addd0070bd3d0f62e94f1afc9e9befa8478b413616",
+    "custom_components/livolo_ec/strings.json": "cf53a710669401f39027f70ecbb9c5b1ea4a8b385d9d7e82c3d97196e7f4d3a6",
+    "custom_components/livolo_ec/switch.py": "7b4f85299eac50bfcfd4542f7f683f8ab5bf27dde05784f70de5ef1ac36f9541",
+    "custom_components/livolo_ec/translations/en.json": "cf53a710669401f39027f70ecbb9c5b1ea4a8b385d9d7e82c3d97196e7f4d3a6",
+    "custom_components/livolo_ec/update.py": "fd029fb6bd612c286f39362978fefe144d281373046adea3132b1f15a41132ea"
+  }
+}
