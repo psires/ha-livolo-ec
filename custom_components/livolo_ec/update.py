@@ -101,7 +101,7 @@ class LivoloFirmwareUpdate(CoordinatorEntity, UpdateEntity):
     def update_percentage(self):
         """Expose measured overall progress only, with no stage-based estimates."""
         value = self.firmware.get("progress_percent")
-        if type(value) in (int, float) and math.isfinite(value) and 0 <= value <= 100:
+        if type(value) in (int, float) and 0 <= value <= 100 and math.isfinite(value):
             return value
         return None
 
@@ -141,6 +141,14 @@ class LivoloFirmwareUpdate(CoordinatorEntity, UpdateEntity):
             if key in self.firmware
             and isinstance(self.firmware[key], (str, bool, type(None)))
         }
+        transfer = self.firmware.get("transfer_percent")
+        value["transfer_percent"] = (
+            transfer
+            if type(transfer) in (int, float)
+            and 0 <= transfer <= 100
+            and math.isfinite(transfer)
+            else None
+        )
         if not self.firmware:
             value["blocked_reason"] = "Daemon does not advertise firmware updates"
         elif self.firmware.get("preflight_supported") is not True and not value.get(

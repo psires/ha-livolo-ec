@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "integration_version": "0.3.0",
+  "integration_version": "0.4.0",
   "source_repository": "https://github.com/psires/livolo_ec",
-  "source_commit": "aa661ef56e11755f00b154289021cc41374797bb",
-  "packaging_commit": "aa661ef56e11755f00b154289021cc41374797bb",
+  "source_commit": "ed8fb6158f237482e6a78834644372b24d1e5f0e",
+  "packaging_commit": "ed8fb6158f237482e6a78834644372b24d1e5f0e",
   "packaging_files": {
     "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
     "custom_components/livolo_ec/brand/icon.png": "0e84fc09001957a9fe50cc1a9cf44e64d4bf2737378fb7449812ced9eb218eda",
@@ -37,10 +37,10 @@
     "custom_components/livolo_ec/const.py": "e36e99cb3c6114ee39c6f91bca0f76d51aa0400270453e1b84e96b7d38b82b7a",
     "custom_components/livolo_ec/coordinator.py": "1d948c9a7f16bd9414a5b54c85325d0c9e0c2fb35951a38994b0d2d5037f9877",
     "custom_components/livolo_ec/diagnostics.py": "f84a5a1fd43a473b581ce9b419928adc15c4d51446911848c4bf3da5a02d6171",
-    "custom_components/livolo_ec/manifest.json": "412e06cf3f807938eb1dd77fa463d7398b228be2447399be081c71e4a97d1281",
+    "custom_components/livolo_ec/manifest.json": "0a1ea74efa24b4623faac7010582fcfca40dc46a932f8423a408618a11193278",
     "custom_components/livolo_ec/strings.json": "e396d68438f54ded20daee33886dff028bacb7cf8af696ac495a5ed04ea169ef",
     "custom_components/livolo_ec/switch.py": "7b4f85299eac50bfcfd4542f7f683f8ab5bf27dde05784f70de5ef1ac36f9541",
     "custom_components/livolo_ec/translations/en.json": "e396d68438f54ded20daee33886dff028bacb7cf8af696ac495a5ed04ea169ef",
-    "custom_components/livolo_ec/update.py": "d448ec0943837d7ed267a4a51311be95f5b3d6d554e27bf36341e8bfab4b0c5e"
+    "custom_components/livolo_ec/update.py": "f9aa0cac63e54452e9d27adae4b691fe23ac23a85932d2efbe35f0541a6af18a"
   }
 }
