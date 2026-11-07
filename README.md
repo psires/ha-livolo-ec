@@ -23,6 +23,8 @@ The minimum qualified HA version is 2026.10.4. The tested one- and two-gang
 switches are supported; profile detection is experimental. Sockets, curtains
 and other variants remain unqualified.
 
+Use **Pair new device** to start a bounded session for one new switch. Wait for confirmed pairing; detection alone is not success. See the [pairing guide for this source revision](https://github.com/psires/livolo_ec/blob/bd06c6b02f4598eca266b72293abc11900cae419/docs/PAIRING.md).
+
 New releases appear as an integration update item. Install an update and restart
 HA to apply it. App updates and radio firmware updates are separate items;
 unattended software updates are optional. Preserve the existing HA integration
