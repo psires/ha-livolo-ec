@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "integration_version": "0.5.0",
+  "integration_version": "0.5.1",
   "source_repository": "https://github.com/psires/livolo_ec",
-  "source_commit": "bd06c6b02f4598eca266b72293abc11900cae419",
-  "packaging_commit": "bd06c6b02f4598eca266b72293abc11900cae419",
+  "source_commit": "e08b3bc3430ae547fa15ccc594206b8cbf3cc3f2",
+  "packaging_commit": "e08b3bc3430ae547fa15ccc594206b8cbf3cc3f2",
   "packaging_files": {
     "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
     "custom_components/livolo_ec/brand/icon.png": "0e84fc09001957a9fe50cc1a9cf44e64d4bf2737378fb7449812ced9eb218eda",
@@ -20,7 +20,7 @@
     ".github/workflows/validate.yml": "2c23fd73bab389eab2456645ebac96d211f7502afdc1a4a1d743f1bbaf0b5dbc",
     ".gitignore": "d279725b10ae6691c9581f9ff18d339a439bd105801e25b66b576e0f8f36e4a6",
     "LICENSE": "f2459cc9f4564c7e974465f14a897afa68097a9a0c432b1ea4e9c95280d2940b",
-    "README.md": "634cd6be07adf4ab218671adcec21e39591383e310bb086ae634ab05f9359a09",
+    "README.md": "95b528cfbe85a5a84f460d15300eb6d434b10820b9d9fbd15663f5c884f270db",
     "hacs.json": "e1fe64c3593ff5ca4003b7c9d5ee247e64fb72c8cfdbd4b4658df3151528c1f7",
     "scripts/build_release.py": "504aab7992ceaaaf19faffd8fbf3f3ef7fcde79350b1dedf7b12e4a723f1c440"
   },
@@ -29,22 +29,22 @@
   "files": {
     "custom_components/livolo_ec/LICENSE": "f2459cc9f4564c7e974465f14a897afa68097a9a0c432b1ea4e9c95280d2940b",
     "custom_components/livolo_ec/__init__.py": "4e1ad6d54e4eedb43e835a3c88d97247787e6dadf7edb44604cc5d927ab94905",
-    "custom_components/livolo_ec/_client/__init__.py": "9d9f7872edcbe2efb9fb0bbafc039f3f9935bf15d2b1a85231837995eec84181",
+    "custom_components/livolo_ec/_client/__init__.py": "88a1da8ac74562fa479d8c501a91533632cc4b6cc562be39965008fdfe224aa0",
     "custom_components/livolo_ec/brand/README.md": "c43e332a485e14399f96241448dd8f9cc5e6ae4954ab7db5bb30cd8bb696fc80",
     "custom_components/livolo_ec/brand/icon.png": "0e84fc09001957a9fe50cc1a9cf44e64d4bf2737378fb7449812ced9eb218eda",
     "custom_components/livolo_ec/brand/icon@2x.png": "db4163f1e9d616313457ec14e6c259cf92a7e78abdedd35770cb583188cb2bf4",
     "custom_components/livolo_ec/button.py": "f7c269cda62c64fb5e77100c66f8a93a76a8a2800220fd969b35fbd83c5bd5d3",
     "custom_components/livolo_ec/commissioning.py": "82fb6c6106a350e3d368df558952fcf6d9d5630a77db0f6d2d7e7f738321b2cf",
-    "custom_components/livolo_ec/config_flow.py": "6ca44047a64ae2b4e2d330bfa0f93547e0668de43e2bd9694ebad5bc6ffbf3a7",
+    "custom_components/livolo_ec/config_flow.py": "a86a102f2e22281d58bdb340dbc96b04f21c6141e77049f619f189abf3ef9a5d",
     "custom_components/livolo_ec/const.py": "e36e99cb3c6114ee39c6f91bca0f76d51aa0400270453e1b84e96b7d38b82b7a",
     "custom_components/livolo_ec/coordinator.py": "71ec9c5c15c7fe5afc62c6c2bb3870cb80ec95291e0f509ab25032428d5eaffa",
-    "custom_components/livolo_ec/diagnostics.py": "d20bb1ee343a68d715300a2e5dfe95bf16a406f6cc1c1b1b3db8c8b480bcdb09",
+    "custom_components/livolo_ec/diagnostics.py": "5de66eeb2c3a56975b9cf8c1676fb2ac38ec3d786a5779e540c39570b52fabcc",
     "custom_components/livolo_ec/firmware_notice.py": "2373ff26b57fb2cfe958d55d3bf43e877ab5bb97e7a27b6b21af8a4ff1eafc13",
-    "custom_components/livolo_ec/manifest.json": "071bb4bd66e3a1647a1d9e42143049edfb403914361adbcba76a09c1f1dbdb37",
+    "custom_components/livolo_ec/manifest.json": "b2de051576d7ee2e7a69e5b9fb4f6e7e4b665e10039e3a3f2b71cff379430afb",
     "custom_components/livolo_ec/sensor.py": "c34143b2af9dc932d702e8580b988931e67bb3ca8c604df50386597aef837e13",
-    "custom_components/livolo_ec/strings.json": "90e40f02b78ec43de8e78638a6923fdb4e8ea673e25bda12222c98463203957c",
+    "custom_components/livolo_ec/strings.json": "65358202978ab6793a31ab5d761f4a765406ae92a69fe9424e197f1409cee7be",
     "custom_components/livolo_ec/switch.py": "7b4f85299eac50bfcfd4542f7f683f8ab5bf27dde05784f70de5ef1ac36f9541",
-    "custom_components/livolo_ec/translations/en.json": "90e40f02b78ec43de8e78638a6923fdb4e8ea673e25bda12222c98463203957c",
+    "custom_components/livolo_ec/translations/en.json": "65358202978ab6793a31ab5d761f4a765406ae92a69fe9424e197f1409cee7be",
     "custom_components/livolo_ec/update.py": "f9aa0cac63e54452e9d27adae4b691fe23ac23a85932d2efbe35f0541a6af18a"
   }
 }
